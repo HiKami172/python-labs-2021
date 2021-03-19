@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+import logging
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+
 def fibonacci(n):
     if n in (1, 2):
         return 1
@@ -5,12 +9,19 @@ def fibonacci(n):
 
 
 def main():
-    amount = int(input("Amount of numbers to print: "))
+    try:
+        amount = int(input("Amount of numbers to print: "))
+    except ValueError:
+        logging.error('\nWrong input!')
+        return
     n = 1
     while n <= amount:
-        print(fibonacci(n))
+        logging.info(fibonacci(n))
         n += 1
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        logging.error('\nKeyboard Interruption occured!')
