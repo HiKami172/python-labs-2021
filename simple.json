@@ -1,0 +1,30 @@
+{
+  "__name__": "f",
+  "__qualname__": "f",
+  "__annotations__": {},
+  "__kwdefaults__": null,
+  "__defaults__": null,
+  "__module__": "__main__",
+  "__doc__": null,
+  "__closure__": null,
+  "__globals__": {},
+  "__code__": {
+    "co_argcount": 0,
+    "co_kwonlyargcount": 0,
+    "co_nlocals": 0,
+    "co_stacksize": 0,
+    "co_flags": 1,
+    "co_code": "d\\x00S\\x00",
+    "co_consts": [
+      null
+    ],
+    "co_names": [],
+    "co_varnames": [],
+    "co_filename": "<stdin>",
+    "co_name": "f",
+    "co_firstlineno": 1,
+    "co_lnotab": "",
+    "co_freevars": [],
+    "co_cellvars": []
+  }
+}
